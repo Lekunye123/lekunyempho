@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    Background-color:#e0f7fa;
+    color:black;
+
+}
+
+  body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('cybertam.jpg');
+            background-size: cover;
+            opacity: 0.1; 
+            z-index: -1;
+  background-size: cover;
+}
+
+header {
+    background: #FF00FF;
+    color: white;
+    text-align: center;
+    padding:0.01rem ;
+    margin-top: fixed;
+    width: 100%;
+    
+}
+        .container {
+            display: flex;
+            align-items: right; /* Vertically align image and text */
+        }
+        .container img {
+            width: 400px;
+            height: auto;
+            margin-right: 40px; /* Space between image and text */
+        }
+
+
+header nav a{
+	color: white;
+	margin:15px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header nav a: hover{
+	text-decoration: none
+}
+
+main {
+	padding: 2rem;
+        text-align: center;
+	
+}
+
+main h2, main h3 {
+	color: #FF00FF;
+}
+
+
+ ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+   
+    margin: 10px 0;
+}
+
+
+
+footer {
+    background: #FF00FF;
+    color: white;
+    text-align: center;
+    padding: 15;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+a{
+  color: #FF00FF;
+  text-decoration: none;
+
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+
